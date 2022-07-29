@@ -107,3 +107,18 @@ function Inteshow() {
     x.innerHTML = "Interior go crazy";
   }
 }
+
+
+
+function PlayAudio1(){
+  document.getElementById("myAudio1").play();
+  document.getElementById("TurboRotate").style.animation="rotate 0.5s infinite linear";
+  // if (x.id === " ") {
+  //   x.id = "TurboRotate";
+  // }
+}
+
+function PlayAudio2(){
+  document.getElementById("myAudio2").play();
+}
+

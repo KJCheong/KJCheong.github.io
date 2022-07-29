@@ -34,7 +34,7 @@
         <button class="tablinks active" onclick="OpenPart(event, 'Turbos')">Turbos</button>
         <button class="tablinks" onclick="OpenPart(event, 'Suspension')">Suspension</button>
         <button class="tablinks" onclick="OpenPart(event, 'Exhausts')">Exhausts</button>
-        <button class="tablinks" onclick="OpenPart(event, 'Kits')">Kits</button>
+        <button class="tablinks" onclick="OpenPart(event, 'Kits')">Body Kits</button>
     </div>
 
     <div id="Turbos" class="tabcontent" style="display:block">
@@ -47,7 +47,7 @@
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/Turbos.png" alt="turbos">
+                <img class="flag" src="Images/Turbo.gif" alt="turbos">
             </div>
 
             <div class="box grey">
@@ -58,10 +58,27 @@
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/EU.png" alt="turbos">
+                <button onclick="PlayAudio1()" type="button" >Play Audio</button>
+            <audio id="myAudio1">
+                <source src="sounds/Turbo.mp3" type="audio/mpeg">
+            </audio>
+        
+            <div class="parent">
+                <img class="image1" src="Images/Turbo.png" />
+                <img  id="TurboRotate" class="image2" src="Images/Turbo_spool.png" />
+            </div>
+                
+            </div>
+            <div class="box black">
+                <img class="flag" src="Images/Turbo-supra.jpg" alt="turbos">
+            </div>
+            <div class="box black">
+                <img class="flag" src="Images/Turbo-Muscle.jpg" alt="turbos">
             </div>
         </div>
+
         
+    
     </div>
     
     <div id="Suspension" class="tabcontent">
@@ -69,24 +86,23 @@
             <div class="box grey">
                 <div class="country">
                     <h1>What is suspension</h1>
-                    <p>car’s suspension system is a protective lattice of shock-absorbing components such as springs and dampers. Your car’s suspension helps ensure that your drive is safe and smooth by absorbing the energy from various road bumps and other kinetic impacts.</p>
+                    <p>A cars suspension system is a protective lattice of shock-absorbing components such as springs and dampers.</p>
+                    <p>It helps ensure that your drive is safe and smooth by absorbing the energy from various road bumps and other kinetic impacts.</p>
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/Turbos.png" alt="turbos">
+                <img class="flag" src="Images/Suspension.jpg" alt="turbos">
             </div>
             
             <div class="box grey">
                 <div class="country">
                     <h1>Suspension</h1>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
+                    <p>Suspensions comes in all shapes and sizes with some being better than others and some being purpose built for special vehicles.</p>
+                    <p>Changing the suspension of cars has been a staple for car enthusiasts and the like with some suspensions even allowing the car to bounce off the road.</p>
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/Turbos.png" alt="turbos">
+                <img class="flag" src="Images/sus-jumping.gif" alt="turbos">
             </div>
         </div> 
     </div>
@@ -95,28 +111,28 @@
         <div class="container">
             <div class="box grey">
                 <div class="country">
-                    <h1>Exhausts</h1>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
+                    <h1>What is an exhaust</h1>
+                    <p>The exhaust system not only makes your car sound good but getting a better can actually help in terms on performance, with the main purpose being to filter out harmful gasses from the engine to the outside</p>
+                    <p>some trade off you get are that some exhausts systems may not have a in built catalytic converter leading to more fumes being released by the car</p>
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/Turbos.png" alt="turbos">
+                <img class="flag" src="Images/Exhaust.jpg" alt="turbos">
             </div>
 
             <div class="box grey">
                 <div class="country">
-                    <h1>Exhausts</h1>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
+                    <h1>Different Exhausts</h1>
+                    <p>There are many different kinds of exhaust with single exit exhaust being the most common in most commercial cars with some opting for dual exit in sports cars.</p>
+                    <p>whilst changing he exhaust may yield varyying results, the overall purpose of it stays pretty much the same.</p>
                 </div>  
             </div>
             <div class="box grey">
-                <img class="flag" src="Images/Turbos.png" alt="turbos">
+                <button onclick="PlayAudio2()" type="button" >Play Audio</button>
+                <audio id="myAudio2">
+                    <source src="sounds/.mp3" type="audio/mpeg">
+                </audio>
+                <img class="flag" src="Images/exhaust-turbo.gif" alt="turbos">
             </div>
         </div>
     </div>
@@ -125,11 +141,9 @@
         <div class="container">
             <div class="box grey">
                 <div class="country">
-                    <h1>Kits</h1>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
+                    <h1>What are body kits</h1>
+                    <p>Body kits are a facelift for your car, it takes a conventionally boring looking car and turns it into a work of art.</p>
+                    <p>The idea that cars can be works of art has been able to launch a few groups to mainstream success in the automotive industry with brands like Rocket Bunny, Liberty Walk and Brabus just to name a few.</p>
                 </div>  
             </div>
             <div class="box grey">
@@ -138,11 +152,10 @@
 
             <div class="box grey">
                 <div class="country">
-                    <h1>Kits</h1>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
-                    <p>Blah blah blah american car go vroom and skrrrrrrrrrrrrrt</p>
+                    <h1>Pros and Cons</h1>
+                    <p>All body kits are not built equal, similar to normal products its quality is usually reflected by how much you pay for them.</p>
+                    <p>Some pros of getting a good body kit is not only does it look better, the cars aerodynamics can also be effected in a way that can benefit the overall performance of the car.</p>
+                    <p>The opposite could be said about bad body kits with some being so bad they turn your car into a moving pile of scrap that is not only a danger to other but the dirver too.</p>
                 </div>  
             </div>
             <div class="box grey">
@@ -150,7 +163,13 @@
             </div>
         </div>
     </div>
-   
+
+    
+    
+
+ 
+
+
    </div>
     <div class="foot">
         <a href="https://www.instagram.com/poignant_pingunium/" target="_blank">

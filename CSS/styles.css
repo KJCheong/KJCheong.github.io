@@ -169,7 +169,8 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
 
 .country p{
   text-align: left;
-  padding-left: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .flag{
@@ -254,6 +255,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   position: relative;
 }
 
+
 .thehead img{
   width:100%;
   height:50vh;
@@ -268,7 +270,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   right:20%;
   background-color: rgba(0, 0, 0, 0.315);
   color: white;
-  height: auto;
+  height:min-content;
 }
 
 .GTR {
@@ -368,4 +370,39 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:100%;
 }
 
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+  left: 0;
+}
 
+.image1 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.image2 {
+  position: absolute;
+  top: 0;
+  right:5%;
+  width:100%;
+}
+
+
+
+@keyframes rotate {
+from {
+  transform: rotate(0deg);
+}
+to { 
+  transform: rotate(360deg);
+}
+}
+
+#TurboRotate{
+  animation: blank;
+}
