@@ -1,0 +1,380 @@
+.navbar {
+  top:2vh;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar img{
+  height: 10vh;
+  float:left;
+}
+
+.navfloat {
+  float: left;
+  padding-top: 2%;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar img {
+    display: none;
+  }
+  
+}
+
+.static {
+  position:absolute;
+  background: black;
+}
+
+.static:hover {
+  opacity:0;
+}
+
+
+* {box-sizing: border-box}
+body {font-family:Georgia, serif; margin:0;background-color:black; }
+
+.mySlides {
+  display: none;
+  height:70vh;
+}
+
+.myslides .img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  height:20%;
+  padding: 16px;
+  padding-top:5% ;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  height:20%;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.centered {font-size: 11px}
+}
+
+.centered { 
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: rgba(18, 18, 18, 0.522);
+  font-size: 200%;
+}
+
+.centered :first-child{
+  margin-top: 0;
+}
+
+.foot{ /*footer background*/
+  position:relative;
+  bottom:0;
+  top:20vh;
+  width:100%;
+  background-color: dimgray;
+  color: white;
+  padding-left: 10%;
+}
+
+.logo{ /*the logo for footer*/
+  float:right;
+  width:auto;
+  height:60px;
+  margin-right: 18%;
+  overflow: hidden;
+  }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+}
+
+.box {
+  width: 50%;
+  height:auto;
+}
+
+.grey{
+  background-color: grey;
+  color: white;
+  font-size: 150%;
+  left:10%;
+}
+
+.black{
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 150%;
+}
+
+.country{
+  margin-top: 0;
+  text-align: center;
+}
+
+.country h1{
+  text-align: center;
+  font-size: 200%;
+}
+
+.country p{
+  text-align: left;
+  padding-left: 5%;
+}
+
+.flag{
+  width: 400px;
+  height: 40vh;
+  padding-top: 10%;
+  padding-bottom:30px ;
+  margin-left:20px;
+}
+
+.container2{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container3{
+  display: flex;
+  flex-wrap: wrap;
+  padding:0 3%;
+}
+
+
+.box2{
+  width:33.33%;
+}
+
+.box3{
+  width:25%;
+}
+
+.grey2{
+  background-color: grey;
+}
+
+@media screen and (max-width: 768px) {
+  .grey,.grey2{
+    width: 100%;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .flag{
+    margin-left:20%;
+  }
+}
+
+
+/*Tabs*/
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  margin-left: 14%;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 20px 12px 0;
+  color:white;
+  bottom:0;
+}
+
+.tabimage{
+  float:right;
+  width:40%;
+  height:40vh;
+  padding-right: 30px;
+}
+
+.thehead{
+  position: relative;
+}
+
+.thehead img{
+  width:100%;
+  height:40vh;
+  background-size: cover;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  left:15%;
+  right:20%;
+  background-color: rgba(0, 0, 0, 0.315);
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.GTR {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+.GTR img{
+  width:100%;
+  padding:2% 3%;
+  padding-bottom: 10%;
+}
+
+
+.EngineBtn{
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  background-color: #555;
+  color: white;
+  padding:1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width:25%;
+  height:90vh;
+  text-align: center;
+}
+
+.DimeBtn{
+  position:absolute;
+  top:2%;
+  left:26% ;
+  background-color: #555;
+  color: white;
+  padding:1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width:25%;
+  height:90vh;
+  text-align: center;
+}
+
+.WheelBtn{
+  position: absolute;
+  top:2%;
+  right: 26%;
+  background-color: #555;
+  color: white;
+  padding:1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width:25%;
+  height:90vh;
+  text-align: center;
+}
+
+.InteBtn{
+  position: absolute;
+  top: 2%;
+  right:3%;
+  background-color: #555;
+  color: white;
+  padding:1%;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  width:25%;
+  height:90vh;
+  text-align: center;
+}
+
+#Wheels {
+  display: none;
+  height: 20vh;
+  width:100%;
+}
+
+#Inte {
+  display: none;
+  height: 20vh;
+  width:100%;
+}
+
+#Dime{
+  display: none;
+  height: 20vh;
+  width:100%;
+}
+
+#Engine{
+  display: none;
+  height: 20vh;
+  width:100%;
+}
+
+
