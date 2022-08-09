@@ -128,7 +128,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   float:right;
   width:auto;
   height:60px;
-  margin-right: 18%;
+  margin-right: 10%;
   overflow: hidden;
   }
 
@@ -348,25 +348,25 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
 
 #Wheels {
   display: none;
-  height: 20vh;
+  height:150px;
   width:100%;
 }
 
 #Inte {
   display: none;
-  height: 20vh;
+  height: 150px;
   width:100%;
 }
 
 #Dime{
   display: none;
-  height: 20vh;
+  height: 150px;
   width:100%;
 }
 
 #Engine{
   display: none;
-  height: 20vh;
+  height: 150px;
   width:100%;
 }
 
@@ -392,6 +392,15 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:100%;
 }
 
+#EngineTxt h3, #DimeTxt h3,#WheelTxt h3,#InteTxt h3{
+ text-align: center;
+}
+
+#EngineTxt p, #DimeTxt p,#WheelTxt p,#InteTxt p{
+  padding-top: 10px;
+  text-align: center;
+  font-size: 90%;
+ }
 
 
 @keyframes rotate {
