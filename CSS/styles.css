@@ -136,6 +136,11 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   overflow: hidden;
   }
 
+/* Just to set Turbo to be the first one */
+#Turbos{
+  display:block;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -317,7 +322,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:25%;
   height:95vh;
   text-align: center;
-  font-size: clamp(0.3em,1.5vw,3rem);
+  font-size: clamp(0.5em,1.5vw,3rem);
 }
 
 .DimeBtn{
@@ -333,7 +338,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:25%;
   height:95vh;
   text-align: center;
-  font-size: clamp(0.3em,1.5vw,3rem);
+  font-size: clamp(0.5em,1.5vw,3rem);
 
 }
 
@@ -350,7 +355,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:25%;
   height:95vh;
   text-align: center;
-  font-size: clamp(0.3em,1.5vw,3rem);
+  font-size: clamp(0.5em,1.5vw,3rem);
 
 }
 
@@ -367,8 +372,7 @@ body {font-family:Georgia, serif; margin:0;background-color:black; }
   width:25%;
   height:95vh;
   text-align: center;
-  font-size: clamp(0.3em,1.5vw,3rem);
-
+  font-size: clamp(0.5em,1.5vw,3rem);
 }
 
 @media screen and (max-width: 540px) {
